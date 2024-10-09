@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="29dp">
+
+    <LinearLayout
+        android:layout_width="173dp"
+        android:layout_height="108dp"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/contactName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/contactPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Number"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/contactDepartment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Department"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/editContactBtn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Edit" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/deleteContactBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:background="#F44336"
+        android:text="Delete" />
+</LinearLayout>

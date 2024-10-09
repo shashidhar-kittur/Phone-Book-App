@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/contactName"
+        style="@android:style/Widget.Material.EditText"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/contactPhone"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:hint="Phone Number" />
+
+    <EditText
+        android:id="@+id/contactDepartment"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:backgroundTint="#6F1F1F"
+        android:hint="Department" />
+    <EditText
+        android:id="@+id/Registrationno"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:backgroundTint="#6F1F1F"
+        android:hint="Registration No." />
+
+</LinearLayout>
